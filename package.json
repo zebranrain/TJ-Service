@@ -7,8 +7,12 @@
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack -d --watch"
+  },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "mysql": "^2.16.0",
     "path": "^0.12.7",
@@ -17,8 +21,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
-    "webpack": "^4.29.5"
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   }
 }
