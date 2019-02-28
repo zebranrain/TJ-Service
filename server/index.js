@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyparser.urlencoded({ extended: false}));
 app.use(bodyparser.json());
 
-app.use(express.static(__dirname + '/../client/dist'));
+app.use(express.static(__dirname + '/../public'));
 
 app.get('/api/');
 
