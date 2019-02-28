@@ -1,0 +1,81 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+progress {
+    width: 80%;
+}
+
+/* div {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+} */
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+  }
+
+/* li {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+} */
+
+#chart_panel {
+    float: left;
+    width: 150px;
+    margin: 5px;
+}
+
+#chart {
+    background: green;
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+#info_panel {
+    display: inline-block;
+}
+
+#bar_charts {
+    width: 400px;
+    display: inline-block;
+}
+
+#container {
+    height: 900px;
+    width: 600px;
+    width: auto;
+}
+
+.lineChart {
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.summary {
+    width: 150px;
+    vertical-align: top;
+    float:left;
+    margin: 20px;
+}
+
+.summary_source {
+    color: grey;
+}
