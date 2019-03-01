@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 body {
+    font-family: 'Open Sans', sans-serif;
     color: white;
     background-color: black;
 }
@@ -34,39 +37,53 @@ ul {
 #chart_panel {
     float: left;
     width: 150px;
-    margin: 5px;
+    margin: 10px;
 }
 
 #chart {
     background: green;
     position: relative;
-    text-align: center;
+    vertical-align: top;
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+}
+
+.chartText {
+    position: relative;
+    text-align: center;
+    top: 40px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #info_panel {
     display: inline-block;
+    margin: 25px 25px 0px 0px;
+    padding-right: 25px;
 }
 
 #bar_charts {
-    width: 400px;
+    width: 100%;
     display: inline-block;
 }
 
 #container {
     height: 900px;
-    width: 600px;
-    width: auto;
+    width: 676px;
 }
 
 .lineChart {
-    width: auto;
+    width: 100%;
     padding: 5px;
     margin: 5px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
+}
+
+.chartPercent {
+    float: right;
 }
 
 .summary {
@@ -79,3 +96,4 @@ ul {
 .summary_source {
     color: grey;
 }
+
