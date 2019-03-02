@@ -2,14 +2,22 @@ import React from 'react';
 
 class ChartPanel extends React.Component {
   render() {
+
+    const ratings = this.props.chartData;
+    const buyRate = ratings.buy;
+    const totalRatings = ratings.buy + ratings.hold + ratings.sell;
+    const reccommendRate = (buyRate / totalRatings) * 100;
+
+    console.log('this is the recommended rating:', reccommendRate);
+
     return (
       <div id="chart">
         <div>
-          <h2 class="chartText">45%</h2>
-          <p class="chartText">of 40 ratings</p>
+          <h2 className="chartText">{reccommendRate}%</h2>
+          <p className="chartText">of {totalRatings} ratings</p>
         </div>
-        
-      </div>
+
+      </div>  
     );
   }
 }
