@@ -3,10 +3,10 @@ import React from 'react';
 class ChartPanel extends React.Component {
   render() {
 
-    const ratings = this.props.chartData;
+    const ratings = this.props.data.ratings;
     const buyRate = ratings.buy;
     const totalRatings = ratings.buy + ratings.hold + ratings.sell;
-    const reccommendRate = (buyRate / totalRatings) * 100;
+    const reccommendRate = Math.round((buyRate / totalRatings) * 100);
 
     console.log('this is the recommended rating:', reccommendRate);
 

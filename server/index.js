@@ -3,11 +3,16 @@ const bodyparser = require('body-parser');
 
 const app = express();
 
-app.use(bodyparser.urlencoded({ extended: false}));
 app.use(bodyparser.json());
+app.use(bodyparser.urlencoded({ extended: true }));
 
-app.use(express.static(__dirname + '/../public'));
 
-app.get('/api/');
+app.use('/:ticker', express.static(__dirname + '/../public'));
+
+app.get('api/:stockId', (req, res) => {
+  const stockId = req.params;
+
+  console.log('this is the stock id:', stockId);
+});
 
 app.listen(3001);

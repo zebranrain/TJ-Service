@@ -3,11 +3,11 @@ import React from 'react';
 class InfoPanel extends React.Component {
   render() {
 
-    const ratings = this.props.ratings;
+    const ratings = this.props.data.ratings;
     const totalRatings = ratings.buy + ratings.hold + ratings.sell;
-    const buyRate = (ratings.buy / totalRatings) * 100;
-    const sellRate = (ratings.sell / totalRatings) * 100;
-    const holdRate = (ratings.hold / totalRatings) * 100;
+    const buyRate = Math.round((ratings.buy / totalRatings) * 100);
+    const sellRate = Math.round((ratings.sell / totalRatings) * 100);
+    const holdRate = Math.round((ratings.hold / totalRatings) * 100);
 
 
 
