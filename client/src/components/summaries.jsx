@@ -6,14 +6,14 @@ class Summaries extends React.Component {
       <div id="summary">
         <div className="summary">
           <h3>Buy Summary</h3>
-          <p>{this.props.data.buySummary['1']}</p>
+          <p>"{this.props.data.company} is {this.props.data.buySummary['1']}</p>
           <p>{this.props.data.buySummary['2']}</p>
           <p>{this.props.data.buySummary['3']}</p>
           <span className="summary_source">MorningStar</span>
         </div>
         <div className="summary">
           <h3>Sell Summary</h3>
-          <p>{this.props.data.sellSummary['1']}</p>
+          <p>" The fact that {this.props.data.company} {this.props.data.sellSummary['1']}</p>
           <p>{this.props.data.sellSummary['2']}</p>
           <p>{this.props.data.sellSummary['3']}</p>
           <span className="summary_source">MorningStar</span>

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import data from '../test_data/sample_data.js';
+import data from './../../../server/generated_data/ticker_data.js';
 import ChartPanel from './chart_panel.jsx';
 import InfoPanel from './info_panel.jsx';
 import Summaries from './summaries.jsx';
