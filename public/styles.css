@@ -36,23 +36,24 @@ ul {
 
 #chart_panel {
     float: left;
-    width: 150px;
+    width: 125px;
     margin: 10px;
+    padding: 10px;
 }
 
 #chart {
     background: #e6f9f3;
     position: relative;
     vertical-align: top;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
 }
 
 .chartText {
     position: relative;
     text-align: center;
-    top: 40px;
+    top: 30px;
     padding: 0px;
     margin: 0px;
     color: #21ce99;
@@ -60,8 +61,9 @@ ul {
 
 #info_panel {
     display: inline-block;
-    margin: 25px 25px 0px 0px;
-    padding-right: 25px;
+    margin: 20px 25px 0px 0px;
+    padding-right: 10px;
+    padding-left: 20px;
 }
 
 #bar_charts {
@@ -88,11 +90,13 @@ ul {
 }
 
 .summary {
-    width: 150px;
+    width: 175px;
     vertical-align: top;
     float:left;
+    font-size: 12px;
     background-color: #fafafa;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .summary_source {
