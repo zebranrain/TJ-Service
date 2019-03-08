@@ -10,7 +10,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Vexillologist semiotics echo park, lomo godard roof party pug glossier venmo swag.',
-      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '3': 'Pickled cold-pressed portland, tattooed 8-bit paleo authentic shaman brooklyn selvage cloud bread.'
     },
     'sellSummary': {
@@ -30,7 +30,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Bushwick beard tote bag shoreditch letterpress asymmetrical pug you probably haven\'t heard of them four loko crucifix dreamcatcher.'
     },
     'sellSummary': {
@@ -50,7 +50,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Bushwick beard tote bag shoreditch letterpress asymmetrical pug you probably haven\'t heard of them four loko crucifix dreamcatcher.',
-      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '3': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.'
     },
     'sellSummary': {
@@ -70,7 +70,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Occupy banh mi cray, iPhone live-edge forage paleo franzen neutra la croix tousled microdosing narwhal. ',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Godard raclette sriracha trust fund.'
     },
     'sellSummary': {
@@ -94,7 +94,7 @@ const data = [
       '3': 'Affogato pug bitters sriracha beard VHS try-hard fingerstache kale chips.'
     },
     'sellSummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Banjo freegan cold-pressed, beard cloud bread kogi ramps bespoke health goth try-hard iPhone.',
       '3': 'Occupy banh mi cray, iPhone live-edge forage paleo franzen neutra la croix tousled microdosing narwhal. '
     }
@@ -130,7 +130,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Occupy banh mi cray, iPhone live-edge forage paleo franzen neutra la croix tousled microdosing narwhal. '
     },
     'sellSummary': {
@@ -155,7 +155,7 @@ const data = [
     },
     'sellSummary': {
       '1': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.',
-      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '3': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.'
     }
   },
@@ -174,8 +174,8 @@ const data = [
       '3': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.'
     },
     'sellSummary': {
-      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Banjo freegan cold-pressed, beard cloud bread kogi ramps bespoke health goth try-hard iPhone.'
     }
   },
@@ -189,7 +189,7 @@ const data = [
       'total': 55
     },
     'buySummary': {
-      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '2': 'Pickled cold-pressed portland, tattooed 8-bit paleo authentic shaman brooklyn selvage cloud bread.',
       '3': 'Kombucha vape you probably haven\'t heard of them meditation ugh biodiesel.'
     },
@@ -275,7 +275,7 @@ const data = [
     },
     'sellSummary': {
       '1': 'Organic bitters hoodie tumblr portland, cold-pressed DIY fashion axe PBR&B.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Pickled cold-pressed portland, tattooed 8-bit paleo authentic shaman brooklyn selvage cloud bread.'
     }
   },
@@ -291,7 +291,7 @@ const data = [
     'buySummary': {
       '1': 'Whatever humblebrag tilde ennui glossier twee banh mi XOXO yr tbh deep v.',
       '2': 'Fixie DIY single-origin coffee kitsch put a bird on it gentrify readymade hammock skateboard kombucha waistcoat next level paleo authentic venmo.',
-      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. '
+      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. '
     },
     'sellSummary': {
       '1': 'Woke poke synth tbh vegan.',
@@ -314,7 +314,7 @@ const data = [
       '3': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.'
     },
     'sellSummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Occupy banh mi cray, iPhone live-edge forage paleo franzen neutra la croix tousled microdosing narwhal. ',
       '3': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.'
     }
@@ -335,7 +335,7 @@ const data = [
     },
     'sellSummary': {
       '1': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
-      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '3': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.'
     }
   },
@@ -355,7 +355,7 @@ const data = [
     },
     'sellSummary': {
       '1': 'Banjo freegan cold-pressed, beard cloud bread kogi ramps bespoke health goth try-hard iPhone.',
-      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '3': 'Kombucha vape you probably haven\'t heard of them meditation ugh biodiesel.'
     }
   },
@@ -370,7 +370,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Vexillologist semiotics echo park, lomo godard roof party pug glossier venmo swag.'
     },
     'sellSummary': {
@@ -394,7 +394,7 @@ const data = [
       '3': 'Godard raclette sriracha trust fund.'
     },
     'sellSummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Godard raclette sriracha trust fund.',
       '3': 'Distillery art party offal flexitarian gochujang seitan vexillologist 90\'s butcher adaptogen gluten-free venmo copper mug.'
     }
@@ -414,7 +414,7 @@ const data = [
       '3': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.'
     },
     'sellSummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.',
       '3': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.'
     }
@@ -456,7 +456,7 @@ const data = [
     'sellSummary': {
       '1': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.',
       '2': 'Affogato pug bitters sriracha beard VHS try-hard fingerstache kale chips.',
-      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.'
+      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.'
     }
   },
   {
@@ -509,9 +509,9 @@ const data = [
       'total': 20
     },
     'buySummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Bushwick beard tote bag shoreditch letterpress asymmetrical pug you probably haven\'t heard of them four loko crucifix dreamcatcher.',
-      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. '
+      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. '
     },
     'sellSummary': {
       '1': 'Woke poke synth tbh vegan.',
@@ -529,8 +529,8 @@ const data = [
       'total': 39
     },
     'buySummary': {
-      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Organic bitters hoodie tumblr portland, cold-pressed DIY fashion axe PBR&B.'
     },
     'sellSummary': {
@@ -555,7 +555,7 @@ const data = [
     },
     'sellSummary': {
       '1': 'Whatever humblebrag tilde ennui glossier twee banh mi XOXO yr tbh deep v.',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.'
     }
   },
@@ -609,7 +609,7 @@ const data = [
       'total': 43
     },
     'buySummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Vexillologist semiotics echo park, lomo godard roof party pug glossier venmo swag.',
       '3': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.'
     },
@@ -650,7 +650,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Godard raclette sriracha trust fund.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Organic bitters hoodie tumblr portland, cold-pressed DIY fashion axe PBR&B.'
     },
     'sellSummary': {
@@ -735,7 +735,7 @@ const data = [
     },
     'sellSummary': {
       '1': 'Whatever humblebrag tilde ennui glossier twee banh mi XOXO yr tbh deep v.',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.'
     }
   },
@@ -756,7 +756,7 @@ const data = [
     'sellSummary': {
       '1': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
       '2': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
-      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.'
+      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.'
     }
   },
   {
@@ -774,7 +774,7 @@ const data = [
       '3': 'Fixie DIY single-origin coffee kitsch put a bird on it gentrify readymade hammock skateboard kombucha waistcoat next level paleo authentic venmo.'
     },
     'sellSummary': {
-      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '2': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.',
       '3': 'Bushwick beard tote bag shoreditch letterpress asymmetrical pug you probably haven\'t heard of them four loko crucifix dreamcatcher.'
     }
@@ -789,7 +789,7 @@ const data = [
       'total': 44
     },
     'buySummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Irony mustache flexitarian kogi, humblebrag bitters truffaut tattooed venmo etsy listicle retro squid air plant.',
       '3': 'Fixie DIY single-origin coffee kitsch put a bird on it gentrify readymade hammock skateboard kombucha waistcoat next level paleo authentic venmo.'
     },
@@ -811,7 +811,7 @@ const data = [
     'buySummary': {
       '1': 'Bushwick beard tote bag shoreditch letterpress asymmetrical pug you probably haven\'t heard of them four loko crucifix dreamcatcher.',
       '2': 'Banjo freegan cold-pressed, beard cloud bread kogi ramps bespoke health goth try-hard iPhone.',
-      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. '
+      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. '
     },
     'sellSummary': {
       '1': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.',
@@ -874,9 +874,9 @@ const data = [
       '3': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.'
     },
     'sellSummary': {
-      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '2': 'Bushwick beard tote bag shoreditch letterpress asymmetrical pug you probably haven\'t heard of them four loko crucifix dreamcatcher.',
-      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.'
+      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.'
     }
   },
   {
@@ -909,12 +909,12 @@ const data = [
       'total': 29
     },
     'buySummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Affogato pug bitters sriracha beard VHS try-hard fingerstache kale chips.',
-      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.'
+      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.'
     },
     'sellSummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Fixie DIY single-origin coffee kitsch put a bird on it gentrify readymade hammock skateboard kombucha waistcoat next level paleo authentic venmo.',
       '3': 'Mlkshk cloud bread paleo, ugh everyday carry XOXO cornhole gochujang forage mustache enamel pin. Slow-carb cornhole before they sold out venmo kitsch food truck.'
     }
@@ -929,7 +929,7 @@ const data = [
       'total': 41
     },
     'buySummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Mlkshk cloud bread paleo, ugh everyday carry XOXO cornhole gochujang forage mustache enamel pin. Slow-carb cornhole before they sold out venmo kitsch food truck.',
       '3': 'Vexillologist semiotics echo park, lomo godard roof party pug glossier venmo swag.'
     },
@@ -970,7 +970,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Godard raclette sriracha trust fund.'
     },
     'sellSummary': {
@@ -989,9 +989,9 @@ const data = [
       'total': 47
     },
     'buySummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Fixie DIY single-origin coffee kitsch put a bird on it gentrify readymade hammock skateboard kombucha waistcoat next level paleo authentic venmo.',
-      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.'
+      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.'
     },
     'sellSummary': {
       '1': 'Vexillologist semiotics echo park, lomo godard roof party pug glossier venmo swag.',
@@ -1010,7 +1010,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Godard raclette sriracha trust fund.',
-      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '3': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.'
     },
     'sellSummary': {
@@ -1029,7 +1029,7 @@ const data = [
       'total': 46
     },
     'buySummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Mlkshk cloud bread paleo, ugh everyday carry XOXO cornhole gochujang forage mustache enamel pin. Slow-carb cornhole before they sold out venmo kitsch food truck.',
       '3': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.'
     },
@@ -1051,7 +1051,7 @@ const data = [
     'buySummary': {
       '1': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.',
       '2': 'Pickled cold-pressed portland, tattooed 8-bit paleo authentic shaman brooklyn selvage cloud bread.',
-      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.'
+      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.'
     },
     'sellSummary': {
       '1': 'Distillery art party offal flexitarian gochujang seitan vexillologist 90\'s butcher adaptogen gluten-free venmo copper mug.',
@@ -1071,10 +1071,10 @@ const data = [
     'buySummary': {
       '1': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.',
       '2': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.',
-      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. '
+      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. '
     },
     'sellSummary': {
-      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '2': 'Fixie DIY single-origin coffee kitsch put a bird on it gentrify readymade hammock skateboard kombucha waistcoat next level paleo authentic venmo.',
       '3': 'Godard raclette sriracha trust fund.'
     }
@@ -1154,7 +1154,7 @@ const data = [
       '3': 'Woke poke synth tbh vegan.'
     },
     'sellSummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Godard raclette sriracha trust fund.',
       '3': 'Godard raclette sriracha trust fund.'
     }
@@ -1170,8 +1170,8 @@ const data = [
     },
     'buySummary': {
       '1': 'Kombucha vape you probably haven\'t heard of them meditation ugh biodiesel.',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
-      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.'
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
+      '3': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.'
     },
     'sellSummary': {
       '1': 'Whatever humblebrag tilde ennui glossier twee banh mi XOXO yr tbh deep v.',
@@ -1230,7 +1230,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Mlkshk cloud bread paleo, ugh everyday carry XOXO cornhole gochujang forage mustache enamel pin. Slow-carb cornhole before they sold out venmo kitsch food truck.',
-      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '2': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '3': 'Irony mustache flexitarian kogi, humblebrag bitters truffaut tattooed venmo etsy listicle retro squid air plant.'
     },
     'sellSummary': {
@@ -1269,7 +1269,7 @@ const data = [
       'total': 44
     },
     'buySummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Affogato pug bitters sriracha beard VHS try-hard fingerstache kale chips.',
       '3': 'Pickled cold-pressed portland, tattooed 8-bit paleo authentic shaman brooklyn selvage cloud bread.'
     },
@@ -1290,7 +1290,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Occupy banh mi cray, iPhone live-edge forage paleo franzen neutra la croix tousled microdosing narwhal. '
     },
     'sellSummary': {
@@ -1329,7 +1329,7 @@ const data = [
       'total': 63
     },
     'buySummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Fixie DIY single-origin coffee kitsch put a bird on it gentrify readymade hammock skateboard kombucha waistcoat next level paleo authentic venmo.',
       '3': 'Distillery art party offal flexitarian gochujang seitan vexillologist 90\'s butcher adaptogen gluten-free venmo copper mug.'
     },
@@ -1395,7 +1395,7 @@ const data = [
     },
     'sellSummary': {
       '1': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Occupy banh mi cray, iPhone live-edge forage paleo franzen neutra la croix tousled microdosing narwhal. '
     }
   },
@@ -1411,7 +1411,7 @@ const data = [
     'buySummary': {
       '1': 'Irony mustache flexitarian kogi, humblebrag bitters truffaut tattooed venmo etsy listicle retro squid air plant.',
       '2': 'Mlkshk cloud bread paleo, ugh everyday carry XOXO cornhole gochujang forage mustache enamel pin. Slow-carb cornhole before they sold out venmo kitsch food truck.',
-      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.'
+      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.'
     },
     'sellSummary': {
       '1': 'Banjo freegan cold-pressed, beard cloud bread kogi ramps bespoke health goth try-hard iPhone.',
@@ -1429,12 +1429,12 @@ const data = [
       'total': 46
     },
     'buySummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Woke poke synth tbh vegan.',
       '3': 'Whatever humblebrag tilde ennui glossier twee banh mi XOXO yr tbh deep v.'
     },
     'sellSummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.',
       '3': 'Affogato pug bitters sriracha beard VHS try-hard fingerstache kale chips.'
     }
@@ -1449,8 +1449,8 @@ const data = [
       'total': 46
     },
     'buySummary': {
-      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.'
     },
     'sellSummary': {
@@ -1489,12 +1489,12 @@ const data = [
       'total': 50
     },
     'buySummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Kombucha vape you probably haven\'t heard of them meditation ugh biodiesel.',
       '3': 'Occupy banh mi cray, iPhone live-edge forage paleo franzen neutra la croix tousled microdosing narwhal. '
     },
     'sellSummary': {
-      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. ',
+      '1': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. ',
       '2': 'Vexillologist semiotics echo park, lomo godard roof party pug glossier venmo swag.',
       '3': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.'
     }
@@ -1515,7 +1515,7 @@ const data = [
     },
     'sellSummary': {
       '1': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.',
-      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '2': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '3': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.'
     }
   },
@@ -1530,11 +1530,11 @@ const data = [
     },
     'buySummary': {
       '1': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
-      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.'
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
+      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.'
     },
     'sellSummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Kombucha vape you probably haven\'t heard of them meditation ugh biodiesel.',
       '3': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.'
     }
@@ -1590,7 +1590,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Godard raclette sriracha trust fund.'
     },
     'sellSummary': {
@@ -1609,7 +1609,7 @@ const data = [
       'total': 36
     },
     'buySummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Banjo freegan cold-pressed, beard cloud bread kogi ramps bespoke health goth try-hard iPhone.',
       '3': 'Affogato pug bitters sriracha beard VHS try-hard fingerstache kale chips.'
     },
@@ -1669,12 +1669,12 @@ const data = [
       'total': 49
     },
     'buySummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
-      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. '
+      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. '
     },
     'sellSummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Distillery art party offal flexitarian gochujang seitan vexillologist 90\'s butcher adaptogen gluten-free venmo copper mug.',
       '3': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.'
     }
@@ -1690,11 +1690,11 @@ const data = [
     },
     'buySummary': {
       '1': 'Occupy banh mi cray, iPhone live-edge forage paleo franzen neutra la croix tousled microdosing narwhal. ',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Organic bitters hoodie tumblr portland, cold-pressed DIY fashion axe PBR&B.'
     },
     'sellSummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.',
       '3': 'Pickled cold-pressed portland, tattooed 8-bit paleo authentic shaman brooklyn selvage cloud bread.'
     }
@@ -1710,7 +1710,7 @@ const data = [
     },
     'buySummary': {
       '1': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Mlkshk cloud bread paleo, ugh everyday carry XOXO cornhole gochujang forage mustache enamel pin. Slow-carb cornhole before they sold out venmo kitsch food truck.'
     },
     'sellSummary': {
@@ -1729,8 +1729,8 @@ const data = [
       'total': 34
     },
     'buySummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
-      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
+      '2': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '3': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.'
     },
     'sellSummary': {
@@ -1754,7 +1754,7 @@ const data = [
       '3': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.'
     },
     'sellSummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Irony mustache flexitarian kogi, humblebrag bitters truffaut tattooed venmo etsy listicle retro squid air plant.',
       '3': 'Kombucha vape you probably haven\'t heard of them meditation ugh biodiesel.'
     }
@@ -1831,7 +1831,7 @@ const data = [
     'buySummary': {
       '1': 'Lorem ipsum dolor amet tofu single-origin coffee la croix, cardigan vaporware scenester pinterest whatever authentic literally.',
       '2': 'Mlkshk cloud bread paleo, ugh everyday carry XOXO cornhole gochujang forage mustache enamel pin. Slow-carb cornhole before they sold out venmo kitsch food truck.',
-      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry hell of yr succulents. '
+      '3': 'VHS biodiesel health goth roof party, humblebrag prism cardigan lyft mlkshk brunch everyday carry  of yr succulents. '
     },
     'sellSummary': {
       '1': 'Pork belly waistcoat next level, pinterest swag skateboard trust fund cred vegan succulents godard vinyl.',
@@ -1849,7 +1849,7 @@ const data = [
       'total': 26
     },
     'buySummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Four dollar toast taxidermy af butcher, gluten-free artisan direct trade vexillologist normcore sriracha tacos.',
       '3': 'Vexillologist semiotics echo park, lomo godard roof party pug glossier venmo swag.'
     },
@@ -1914,7 +1914,7 @@ const data = [
       '3': 'Banh mi health goth twee kickstarter, humblebrag YOLO ramps kogi 8-bit.'
     },
     'sellSummary': {
-      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel hell of twee pug keytar poutine biodiesel.',
+      '1': 'Single-origin coffee chillwave asymmetrical street art hammock affogato, next level ramps flannel  of twee pug keytar poutine biodiesel.',
       '2': 'Pickled cold-pressed portland, tattooed 8-bit paleo authentic shaman brooklyn selvage cloud bread.',
       '3': 'Organic bitters hoodie tumblr portland, cold-pressed DIY fashion axe PBR&B.'
     }
@@ -1934,9 +1934,9 @@ const data = [
       '3': 'Organic bitters hoodie tumblr portland, cold-pressed DIY fashion axe PBR&B.'
     },
     'sellSummary': {
-      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.',
+      '1': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.',
       '2': 'Bushwick beard tote bag shoreditch letterpress asymmetrical pug you probably haven\'t heard of them four loko crucifix dreamcatcher.',
-      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.'
+      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.'
     }
   },
   {
@@ -1971,7 +1971,7 @@ const data = [
     'buySummary': {
       '1': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
       '2': 'Fixie DIY single-origin coffee kitsch put a bird on it gentrify readymade hammock skateboard kombucha waistcoat next level paleo authentic venmo.',
-      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.'
+      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.'
     },
     'sellSummary': {
       '1': 'Cardigan selfies tumeric bitters, leggings air plant wayfarers.',
@@ -1996,7 +1996,7 @@ const data = [
     'sellSummary': {
       '1': 'Bushwick beard tote bag shoreditch letterpress asymmetrical pug you probably haven\'t heard of them four loko crucifix dreamcatcher.',
       '2': 'Irony mustache flexitarian kogi, humblebrag bitters truffaut tattooed venmo etsy listicle retro squid air plant.',
-      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn hell of street art distillery chicharrones.'
+      '3': 'Wolf pork belly photo booth gentrify, whatever shoreditch vape crucifix thundercats brooklyn  of street art distillery chicharrones.'
     }
   }
 ];

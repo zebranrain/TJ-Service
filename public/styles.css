@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: white;
-    background-color: black;
+    /* color: white; */
+    /* background-color: black; */
 }
 
 header {
@@ -41,7 +41,7 @@ ul {
 }
 
 #chart {
-    background: green;
+    background: #e6f9f3;
     position: relative;
     vertical-align: top;
     width: 150px;
@@ -55,6 +55,7 @@ ul {
     top: 40px;
     padding: 0px;
     margin: 0px;
+    color: #21ce99;
 }
 
 #info_panel {
@@ -77,8 +78,8 @@ ul {
     width: 100%;
     padding: 5px;
     margin: 5px;
-    border-style: solid;
-    border-color: black;
+    /* border-style: solid; */
+    /* border-color: black; */
     border-width: 1px;
 }
 
@@ -90,10 +91,11 @@ ul {
     width: 150px;
     vertical-align: top;
     float:left;
+    background-color: #fafafa;
     margin: 20px;
 }
 
 .summary_source {
-    color: grey;
+    color: #cbcbcd;
 }
 
