@@ -31,23 +31,7 @@ const tickerSchema = new mongoose.Schema({
 
 let Ticker = mongoose.model('Ticker', tickerSchema);
 
-// let save = (symbol) => {
-//   let newTicker = new Ticker(symbol);
-//   newTicker.save((err) => {
-//     if (err) { console.log('Error saving to DB'); }
-//     console.log('Ticker data saved to DB');
-//   });
-// };
-
 let seed = (data) => {
-
-  //   console.log('this is the data:', data);
-  
-  //   Ticker.remove({}, (err) => {
-  //     if (err) { console.log('Error dropping documents'); }
-  //     console.log('Collection dropped');
-  //   });
-
   db.dropDatabase();
   
   data.forEach((symbol) => {
@@ -55,22 +39,29 @@ let seed = (data) => {
     newTicker.save((err) => {
       if (err) { console.log('Error saving to DB'); }
     });
-  });
 
-  console.log('DB has been seeded');
+    console.log('DB has been seeded');
+  });
 };
 
-let pull = (symbol, callback) => {
-  // write the query with the symbol
-  Ticker.find({ ticker: symbol }, (err, docs) => {
-    if (err) { console.error(err); }
+let datapull = (symbol, callback) => {
+  Ticker.findOne({ ticker: symbol }, null, (err, docs) => {
+    if (err) { console.error('Error pulling data from DB'); }
+
+    callback(null, docs);
+  });
+};
+
+let apirequest = (symbol, callback) => {
+  Ticker.findOne( { ticker: symbol }, { ticker: 1, ratings: 1 }, (err, docs) => {
+    if (err) { console.error('Error pulling API Request data from DB'); }
 
     callback(null, docs);
   });
 };
 
 module.exports = {
-//   save,
   seed,
-  pull
+  datapull,
+  apirequest
 };

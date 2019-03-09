@@ -13,5 +13,3 @@ const analystratings = (
 
 
 window.analystratings = analystratings;
-
-// ReactDOM.render(<App />, document.getElementById('app'));

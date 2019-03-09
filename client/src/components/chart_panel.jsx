@@ -8,15 +8,12 @@ class ChartPanel extends React.Component {
     const totalRatings = ratings.buy + ratings.hold + ratings.sell;
     const reccommendRate = Math.round((buyRate / totalRatings) * 100);
 
-    console.log('this is the recommended rating:', reccommendRate);
-
     return (
       <div id="chart">
         <div>
           <h2 className="chartText">{reccommendRate}%</h2>
           <p className="chartText">of {totalRatings} ratings</p>
         </div>
-
       </div>  
     );
   }

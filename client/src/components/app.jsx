@@ -1,10 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-import data from './../../../server/generated_data/ticker_data.js';
 import ChartPanel from './chart_panel.jsx';
 import InfoPanel from './info_panel.jsx';
 import Summaries from './summaries.jsx';
+import axios from 'axios';
 
 class App extends React.Component {
   constructor(props) {
@@ -29,35 +27,27 @@ class App extends React.Component {
           '3': ''
         }
       }
-
     };
-
-    console.log(this.state.data);
   }
 
 
   dataPull() {
 
     let stockId = this.props.match.params.ticker;
-    console.log('this is the:', stockId);
 
-    let newData = data.filter((stock) => {
-      if (stock.ticker === stockId) {
-        return stock;
+    axios.get('/api/analystdata', {
+      params: {
+        ticker: stockId
       }
-    });
-
-    console.log('this is the newData:', newData);
-
-    // this.state.data = newData;
-    // console.log(newData);
-    // let newData = data[0];
-
-    console.log(newData);
-
-    this.setState({
-      data: newData[0]
-    }, () => console.log('test data is:', this.state.data));
+    })
+      .then((getResponse) =>{
+        this.setState({
+          data: getResponse.data
+        }, () => console.log('DB data has been loaded to the app'));
+      })
+      .catch((err) => {
+        console.log(err);
+      });
 
   }
 

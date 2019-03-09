@@ -5,20 +5,40 @@ const data = require('../server/generated_data/seed');
 
 
 const app = express();
+const port = 3001;
 
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 
-
 app.use('/:ticker', express.static(__dirname + '/../public'));
 
-// console.log('this is the seed data:', data);
+/** Data Seeder **/
 db.seed(data);
 
-app.get('api/:stockId', (req, res) => {
-  const stockId = req.params;
+app.get('/api/analystdata', (req, res) => {
+  const stockId = req.query.ticker;
 
-  console.log('this is the stock id:', stockId);
+  db.datapull(stockId, (err, results) => {
+    if (err) { console.log('Error pulling data from DB'); }
+
+    res.status(200).send(results).end();
+    console.log('Ticker info has been updated!');
+  });
+  
 });
 
-app.listen(3001);
+app.get('/api/analystratings', (req, res) => {
+  const stockId = req.query.ticker;
+
+  db.apirequest(stockId, (err, results) => {
+    if (err) { console.log('Error pulling Analyst Ratings from the DB'); }
+
+    res.status(200).send(results).end();
+    console.log('API request has been completed!');
+  });
+
+});
+
+app.listen(port, () => {
+  console.log(`Listening on Port ${port}`);
+});
