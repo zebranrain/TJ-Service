@@ -12,7 +12,7 @@ class App extends React.Component {
         ticker: '',
         company: '',
         ratings: {
-          buy: 0,
+          buy: 1,
           hold: 0,
           sell: 0
         },
@@ -38,7 +38,7 @@ class App extends React.Component {
     axios.get('/api/analystdata', {
       params: {
         ticker: stockId
-      }
+      },
     })
       .then((getResponse) =>{
         this.setState({

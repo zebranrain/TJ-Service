@@ -17,9 +17,30 @@ module.exports = {
         options: {
           presets: [ '@babel/preset-react', '@babel/preset-env']
         }
-      }
+      },
+      {
+        test: /\.css?$/,
+        loaders: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(jpg|png|gif|svg|pdf|ico)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]'
+            },
+          },
+        ]
+      },
     ]
+  },
+  devServer: {
+    contentBase: PUBLIC_DIR,
+    proxy: {
+      '/api/analystdata': {
+        target: 'http://localhost:3001',
+      }
+    }
   }
-
-
 };

@@ -1,4 +1,5 @@
 import React from 'react';
+import Pricetag from '../images/Price_Tag.svg';
 
 class ChartPanel extends React.Component {
   render() {
@@ -14,7 +15,7 @@ class ChartPanel extends React.Component {
           <h2 className="chartText">{reccommendRate}%</h2>
           <p className="chartText">of {totalRatings} ratings</p>
         </div>
-      </div>  
+      </div>
     );
   }
 }

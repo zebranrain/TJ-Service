@@ -39,9 +39,9 @@ let seed = (data) => {
     newTicker.save((err) => {
       if (err) { console.log('Error saving to DB'); }
     });
-
-    console.log('DB has been seeded');
   });
+
+  console.log('DB has been seeded');
 };
 
 let datapull = (symbol, callback) => {
