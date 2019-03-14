@@ -1,5 +1,15 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/friartuck', { useNewUrlParser: true });
+const path = require('path');
+const config = require(path.join(__dirname, './config'));
+
+
+console.log(config.username);
+
+mongoose.connect('mongodb+srv://username:password@friartuck-6zclk.mongodb.net/test?retryWrites=true', { 
+  useNewUrlParser: true,
+  user: config.username,
+  pass: config.password
+});
 
 const db = mongoose.connection;
 
@@ -32,7 +42,7 @@ const tickerSchema = new mongoose.Schema({
 let Ticker = mongoose.model('Ticker', tickerSchema);
 
 let seed = (data) => {
-  db.dropDatabase();
+  // db.dropDatabase();
   
   data.forEach((symbol) => {
     let newTicker = new Ticker(symbol);
@@ -61,7 +71,7 @@ let apirequest = (symbol, callback) => {
 };
 
 module.exports = {
-  seed,
+  // seed,
   datapull,
   apirequest
 };

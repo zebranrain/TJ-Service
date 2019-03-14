@@ -2,26 +2,22 @@ const express = require('express');
 const cors = require('cors');
 const bodyparser = require('body-parser');
 const db = require('../database/index.js');
-const data = require('../server/generated_data/seed');
-const morgan = require('morgan');
-
-
+// const data = require('../server/generated_data/seed');
+// const morgan = require('morgan');
 
 const app = express();
 const port = 3001;
 
 app.use(cors());
 
-app.use(morgan('dev'));
+// app.use(morgan('dev'));
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
 
 app.use('/:ticker', express.static('./public'));
 
 /** Data Seeder **/
-db.seed(data);
-
-
+// db.seed(data);
 
 app.get('/api/analystdata/:ticker', (req, res) => {
   const { ticker: stock } = req.params;
