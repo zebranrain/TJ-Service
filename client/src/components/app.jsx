@@ -33,13 +33,11 @@ class App extends React.Component {
 
   dataPull() {
 
-    let stockId = this.props.match.params.ticker;
+    const { match: { params } } = this.props;
 
-    axios.get('/api/analystdata', {
-      params: {
-        ticker: stockId
-      },
-    })
+    console.log(params.ticker);
+
+    axios.get(`/api/analystdata/${params.ticker}`)
       .then((getResponse) =>{
         this.setState({
           data: getResponse.data

@@ -1,5 +1,4 @@
 import React from 'react';
-import Pricetag from '../images/Price_Tag.svg';
 
 class ChartPanel extends React.Component {
   render() {

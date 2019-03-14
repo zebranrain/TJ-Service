@@ -5,10 +5,13 @@ const db = require('../database/index.js');
 const data = require('../server/generated_data/seed');
 const morgan = require('morgan');
 
+
+
 const app = express();
 const port = 3001;
 
 app.use(cors());
+
 app.use(morgan('dev'));
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: true }));
@@ -18,10 +21,12 @@ app.use('/:ticker', express.static('./public'));
 /** Data Seeder **/
 db.seed(data);
 
-app.get('/api/analystdata', (req, res) => {
-  const stockId = req.query.ticker;
 
-  db.datapull(stockId, (err, results) => {
+
+app.get('/api/analystdata/:ticker', (req, res) => {
+  const { ticker: stock } = req.params;
+
+  db.datapull({ ticker: stock }, (err, results) => {
     if (err) { console.log('Error pulling data from DB'); }
 
     res.status(200).send(results).end();

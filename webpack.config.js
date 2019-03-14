@@ -6,7 +6,8 @@ module.exports = {
   entry: `${SRC_DIR}/index.jsx`,
   output: {
     filename: 'bundle.js',
-    path: PUBLIC_DIR
+    path: PUBLIC_DIR,
+    publicPath: '/'
   },
   module: {
     rules: [
@@ -36,11 +37,12 @@ module.exports = {
     ]
   },
   devServer: {
-    contentBase: PUBLIC_DIR,
-    proxy: {
-      '/api/analystdata': {
-        target: 'http://localhost:3001',
-      }
-    }
+    // historyApiFallback: true,
+    // contentBase: PUBLIC_DIR,
+    // proxy: {
+    //   '/api/analystdata': {
+    //     target: 'http://localhost:3001',
+    //   }
+    // }
   }
 };

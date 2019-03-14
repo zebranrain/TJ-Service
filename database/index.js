@@ -44,7 +44,7 @@ let seed = (data) => {
   console.log('DB has been seeded');
 };
 
-let datapull = (symbol, callback) => {
+let datapull = ({ ticker: symbol }, callback) => {
   Ticker.findOne({ ticker: symbol }, null, (err, docs) => {
     if (err) { console.error('Error pulling data from DB'); }
 
